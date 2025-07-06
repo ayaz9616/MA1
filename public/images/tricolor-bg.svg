@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky Gradient -->
+  <defs>
+    <linearGradient id="skyGradient" gradientTransform="rotate(256.77)">
+      <stop offset="4.45%" stop-color="#86D3F5"/> <!-- Slightly darker -->
+      <stop offset="77.58%" stop-color="#4EB0DC"/>
+      <stop offset="90.88%" stop-color="#0073B0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top Sky Background -->
+  <rect width="1200" height="800" fill="url(#skyGradient)" rx="40"/>
+
+  <!-- Middle Green Hill (centered) -->
+  <path 
+    d="
+      M0 400
+      Q 300 350 600 400
+      T 1200 400
+      L1200 800 L0 800 Z
+    "
+    fill="#94B839"/>
+
+  <!-- Bottom Solid Color -->
+  <path 
+    d="
+      M0 500
+      Q 300 470 600 500
+      T 1200 500
+      L1200 800 L0 800 Z
+    "
+    fill="#218F9A"/>
+</svg>
